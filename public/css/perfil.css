@@ -1,0 +1,177 @@
+.cover-top{
+    /*background: url(../img/cover/cover-boruto.png) no-repeat 0;*/
+    background-size: cover;
+    background-position: 0 -150px;
+    width: 100%;
+    height: 350px;
+    margin-left: 0;
+}
+.dark-cover-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+}
+.sidebar-poster{
+    width: 220px;
+    position: absolute;
+    top: -85px;
+}
+.container-global{
+    padding-top: 0;
+}
+.info-conteudo{
+    max-width: 910px;
+    margin-left: 225px;
+}
+.titulo-detalhes-conteudo{
+    font-size: 15px;
+}
+.detalhes-conteudo{
+    box-shadow: 1px 2px 10px #96a3a9;
+    padding: 20px;
+}
+.list-unstyled{
+    font-size: 12px;
+}
+.list-unstyled > li {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+.list-unstyled > li > strong{
+    width: 100px;
+}
+.info-conteudo .nav-link{
+    border-radius: 0;
+    color: #484848;
+    font-size: 14px;
+    padding-top: 11px;
+}
+.info-conteudo .nav-tabs{
+    margin-bottom: 20px;
+}
+.btn-assinar:hover, .btn-comentar:hover, .btn-favoritos:hover{
+    color: #c6ebff;
+    transition: all 300ms;
+}
+.dropdown-situacao-assinante{
+    width: 190px;
+}
+.aba-sumario, .aba-episodios, .aba-personagens{
+    display: none;
+}
+.poster-epsodios{
+    margin-bottom: 15px;
+}
+.poster-conteudo-relacionado, .poster-epsodios{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.thumbnail-trailer{
+    /*background: url(https://img.youtube.com/vi/Qyonn5Vbg7s/mqdefault.jpg) no-repeat 0;*/
+    height: 175px;
+    margin-bottom: 15px;
+}
+.youtube-play{
+    width: 50px;
+    margin: auto;
+    display: block;
+    padding-top: 14%;
+}
+.container-play-youtube{
+    position: absolute;
+    top: 50px;
+    width: 87%;
+}
+.thumbnail-usuario-comentario{
+    /*background: url(../img/users/user.png) no-repeat 0;*/
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border: 0;
+    border-radius: 0;
+    display: inline-block;
+    margin-right: 16px;
+    vertical-align: top;
+}
+.container-comentarios textarea{
+    display: inline-block;
+    width: 88%;
+    background-color: #e4ebef;
+    border: 0;
+    padding: 7px;
+    outline: 0;
+}
+.divisor-conteudo-comentario{
+    width: 71%;
+    background-color: #000;
+    position: relative;
+    top: 10px;
+    margin-right: 9px;
+    height: 1px;
+    border-bottom: 1px solid #96a3a9;
+}
+.divisor-comentario-comentario{
+    background-color: #000;
+    position: relative;
+    top: 1px;
+    margin-right: 9px;
+    height: 1px;
+    border-bottom: 1px solid #96a3a9;
+    display: block;
+    margin-bottom: 3px;
+    width: 100%;
+}
+.conteudo-comentario{
+    width: 88%;
+    display: inline-block;
+}
+.comentante{
+    margin-bottom: 30px;
+}
+.comentario-usuario{
+    margin-bottom: 25px;
+}
+.btn-comentar{
+    float: right;
+    margin-right: 3.6%;
+}
+.btn-carregar-mais-comentarios{
+    margin: auto;
+    display: block;
+}
+
+/*carrosel volume*/
+.gallery {
+    width: 100%;
+    padding-top: 115px;
+    position: absolute;
+}
+.gallery-cell {
+    width: 9%;
+    height: 200px;
+    margin-right: 30px;
+}
+.poster-volume{
+    height: 217px;
+}
+.flickity-prev-next-button{
+    top: 210px;
+    border-radius: 0;
+}
+.container-volumes{
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    padding-left: 31%;
+    padding-top: 88px;
+}
+.container-poster-volume img{
+    height: 250px;
+}
+.btn-favoritos{
+    border-top: 1px solid #425159;
+}
+.icon-favoritos > svg {
+    margin-right: -5px;
+}

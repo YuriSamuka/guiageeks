@@ -1,0 +1,439 @@
+/*HEADR*/
+.logo-menu span{
+    background: url(../img/logo/logo.png) no-repeat 0;
+    width: 115px;
+    display: inline-block;
+    top: 1px;
+    height: 83px;
+    background-size: contain;
+    position: relative;
+}
+.navbar .row{
+    width: 100%;
+}
+
+.input-text-guiageeks{
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar{
+    background-color: #169fe6;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+}
+.login-menu-top{
+    margin-left: 4px;
+    margin-right: 15px;
+}
+.cadastro-menu-top{
+
+}
+.nav-link, .login-menu-top, .cadastro-menu-top{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link:hover, .cadastro-menu-top:hover, .login-menu-top:hover{
+    color: #c6ebff;
+    transition: all 300ms;
+    text-decoration: none;
+}
+.search-guiageek::-webkit-input-placeholder {
+    color: #51576d;
+}
+.search-guiageek:-moz-placeholder {
+    color: #51576d;
+}
+.search-guiageek::-moz-placeholder {
+    color: #51576d;
+}
+.search-guiageek:-ms-input-placeholder {
+    color: #51576d;
+}
+
+.active .nav-link{
+    /*text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 1px #683FCC , 0 0 1px #899BD7 ;*/
+    /*-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);*/
+    /*-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);*/
+    /*-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);*/
+    /*transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);*/
+    color: #c6ebff !important;
+}
+.icon-notificacao{
+    padding-top: 26px;
+    padding-left: 6px;
+    position: relative;
+}
+.icon-notificacao svg{
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+    border: 0;
+}
+.icon-notificacao svg:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+.form-inline{
+    margin-left: auto;
+}
+.thumbnail-usuario-topo{
+    background: url(../img/users/user.png) no-repeat 0;
+    width: 36px;
+    height: 36px;
+    background-size: cover;
+    border: 0;
+    border-radius: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    position: relative;
+}
+.lookup-busca, .lista-notificacoes{
+    min-width: 300px;
+    position: absolute;
+    top: 82px;
+    box-shadow: 2px 2px 10px #96a3a9;
+    display: none;
+    z-index: 1;
+}
+.lookup-busca{
+    right: 24.7%;
+}
+.lista-notificacoes{
+    border-radius: 0;
+    right: 1.7%;
+}
+.lista-notificacoes > a{
+    padding: 15px 20px;
+    border-radius: 0 !important;
+}
+.lista-notificacoes > a > p{
+    font-size: 12px;
+}
+.select-busca{
+    border-left: solid 1px #cac6c6;
+    color: #484848 !important;
+    background-color: #fff !important;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 0;
+}
+.container-classificacao-busca{
+    padding: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.item-busca{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    text-decoration: none;
+    color: #484848;
+    padding-left: 25px;
+}
+.item-busca:hover{
+    text-decoration: none;
+    color: #c0eaff;
+    background-color: #169fe6;
+}
+.container-ver-mais-busca{
+    padding-left: 25px;
+}
+.list-group-item{
+    padding: 0;
+    border: 0;
+}
+.badge{
+    position: absolute;
+    top: 43px;
+    right: -2px;
+    background-color: #ffffff;
+    color: #169fe6;
+}
+/*FIM HEADER*/
+
+/*BODY*/
+.container-global{
+    padding-top: 120px;
+    position: relative;
+}
+.sidebar-pagina{
+    max-width: 300px;
+    padding-right: 0;
+}
+.titulo-pagina, .btn{
+    font-family: Univers;
+    font-weight: 700;
+}
+.titulo-pagina a{
+    color: #000;
+}
+.titulo-pagina a:hover{
+    text-decoration: none;
+}
+.container-busca-home{
+    padding-bottom: 40px;
+}
+.container-busca-home input{
+    width: 100%;
+    height: 45px;
+    border: 1px solid;
+    padding-left: 40px;
+    outline: 0;
+}
+.container-ultimos-animes-adicionandos, .container-ultimos-manga-adicionandos, .container-ultimos-hqs-adicionandos{
+    margin-bottom: 20px;
+}
+.no-padding{
+    padding: 0;
+}
+.card-img-top{
+    border-radius: 0;
+    transition: all 300ms;
+
+    animation: placeholder-poster 4s infinite;
+
+    -webkit-animation: placeholder-poster 5s infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+}
+.card-body{
+    padding: 13px;
+}
+.card-text{
+    font-size: 13px;
+}
+.icon-basico{
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+}
+.icon-basico > svg{
+    width: 15px;
+    height: 15px;
+    margin-right: 9px;
+    vertical-align: middle;
+}
+.icon-assinantes{
+    position: relative;
+    top: -3px;
+}
+.icon-favoritos{
+    margin-right: -6px;
+    width: auto;
+}
+.card{
+    border-radius: 0;
+    box-shadow: 1px 2px 10px #96a3a9;
+    border: 0;
+    margin-bottom: 25px;
+}
+.alceado{
+    /*position: relative;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    transition: all 300ms;
+    box-shadow: 1px 2px 10px #96a3a9;
+}
+.alceado:hover{
+        /*top: -2px;*/
+        /*right: 2px;*/
+    box-shadow: 3px 4px 10px #96a3a9;
+}
+.card-title{
+    font-size: 14px;
+    font-weight: bold;
+}
+.card-title a{
+    color: #000;
+}
+.divisor-grid-home{
+    width: 92%;
+    background-color: #000;
+    position: relative;
+    top: 10px;
+    margin-right: 9px;
+    height: 1px;
+    border-bottom: 1px solid #96a3a9;
+}
+.row-divisor{
+    margin-bottom: 40px;
+}
+.link-vermais{
+    font-size: 13px;
+    color: #00B253;
+}
+/*SIDEBAR RANKING*/
+.thumbnail-poster-ranking img{
+    width: 65px;
+}
+.infos-ranking-anime, .infos-ranking-manga{
+    display: inline-block;
+    max-width: 185px;
+    padding-left: 7px;
+    vertical-align: middle;
+}
+.infos-ranking-anime h6, .infos-ranking-manga h6{
+    font-size: 14px;
+}
+.infos-ranking-anime p, .infos-ranking-manga p{
+    font-size: 11px;
+    margin: 0;
+}
+.item-ranking{
+    box-shadow: 1px 2px 10px #96a3a9;
+    margin-bottom: 10px;
+}
+.titulo-ranking{
+    margin-bottom: 17px;
+}
+.lugar-ranking{
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: #00B253;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 55px;
+    float: left;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #484848;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-top: 30px;
+}
+.titulo-footer{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.contatos-footer a, .link-footer a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    display: table;
+    margin: auto;
+}
+.contatos-footer, .logo-footer, .link-footer{
+    margin-bottom: 50px;
+}
+.logo-footer img{
+    padding: 0 45px;
+}
+.divisor-footer{
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #ffffff;
+}
+.container-social-media-footer{
+    display: block;
+    margin: auto;
+}
+.copyright-footer p{
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+.fa{
+    padding: 13px;
+    font-size: 19px;
+    width: 45px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 2px;
+    background-color: #484848;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    height: 45px;
+}
+.fa:hover{
+    text-decoration: none;
+    color: #a5a4a4;
+    border: 1px solid #a5a4a4;
+    transition: all 300ms;
+}
+.social-media-footer{
+    margin-bottom: 10px;
+}
+/*CLASSES DE DEFINIÇÕES GENERICAS*/
+.placeholder-animado{
+    transition: all 300ms;
+
+    animation: placeholder-poster 4s infinite;
+
+    -webkit-animation: placeholder-poster 5s infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+}
+a:hover {
+    text-decoration: none;
+}
+.no-padding-left{
+    padding-left: 0;
+}
+.img-responsiva{
+    max-width: 100%;
+    height: auto;
+}
+.btn{
+    border-radius: 0 !important;
+    color: #fff;
+}
+.btn-cor-padrao{
+    background-color: #169fe6;
+}
+.btn-cor-padrao:hover{
+    color: #c6ebff;
+    transition: all 300ms;
+}
+.no-margin{
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif !important;
+    color: #000 !important;
+}
+@font-face {
+    font-family: Univers;
+    src: url('../fonts/univers.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*ANIMAÇÕES*/
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-0.5px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(1px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-2px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(2px, 0, 0);
+    }
+}
+@keyframes placeholder-poster {
+    0%, 100%{
+        background: url(../img/placeholder-poster-0.png) 0
+    }
+    50%{
+        background: url(../img/placeholder-poster-1.png) 0
+    }
+}

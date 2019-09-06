@@ -1,0 +1,47 @@
+.capa-perfil-usuario{
+    background: url(../img/users/capa/capa.jpg) no-repeat 0;
+    background-size: cover;
+    background-position: 0 -371px;
+    width: 100%;
+    height: 350px;
+    margin-left: 0;
+}
+.avatar-usuario{
+    background: url(../img/users/user.png) no-repeat 0;
+    background-size: cover;
+    height: 210px;
+    display: block;
+}
+.sidebar-poster{
+    padding: 0;
+}
+.icon-mensagem{
+    width: 15px;
+    height: 15px;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+.divisor-favoritos-usuario{
+    width: 83%;
+    background-color: #000;
+    position: relative;
+    top: 11px;
+    margin-right: 26px;
+    height: 1px;
+    border-bottom: 1px solid #96a3a9;
+    right: -16px;
+}
+.detalhes-conteudo{
+    max-height: 258px;
+}
+.conteudos-favoritos-usuario{
+    display: block;
+    margin: auto;
+    height: 185px;
+}
+.container-conteudos-favoritos-usuario{
+    margin-bottom: 15px
+}
+.row-divisor{
+    margin-bottom: 25px;
+}

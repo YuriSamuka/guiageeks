@@ -1,0 +1,26 @@
+.page-link{
+    color: #00B253;
+    font-weight: bold;
+}
+.page-item.active .page-link{
+    background-color: #ffffff;
+    color: #00B253;
+    border: solid 2px #00B253;
+    padding: 0.4rem 0.75rem;
+}
+.page-link:focus, .page-link:hover{
+    color: #169fe6;
+}
+.icon-search{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+.card{
+    margin-bottom: 6px;
+}
+.titulo-conteudo{
+    margin-bottom: 20px;
+}

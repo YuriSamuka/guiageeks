@@ -1,0 +1,14 @@
+
+# BEGIN Text
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^manga(.*)$ app/manga/index.php$1 [L]
+RewriteRule ^anime(.*)$ app/anime/index.php$1
+RewriteRule ^galeria(.*)$ app/galeria/index.php$1
+RewriteRule ^hq_volume(.*)$ app/hq_volume/index.php$1
+ErrorDocument 404 error_test.html
+</IfModule>
+
+# END Text	

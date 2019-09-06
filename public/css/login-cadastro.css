@@ -1,0 +1,83 @@
+/*LOGIN*/
+.container-login-cadastro{
+    box-shadow: 1px 2px 10px #272b2e;
+    max-width: 503px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 100px;
+}
+.container-login-cadastro h4{
+    padding-left: 2%;
+}
+.input-text-login{
+    background-color: #eff3f5;
+    transition: all 300ms;
+}
+.input-text-login:focus{
+    border-bottom: solid 1px #169fe6;
+}
+.footer-modal-cadastro .dropdown-item {
+    color: #484848;
+}
+.footer-modal-cadastro .dropdown-item:hover {
+    color: #c0eaff;
+    background-color: #169fe6;
+}
+
+/*CADASTRO*/
+.container-cadastro{
+    box-shadow: 1px 2px 10px #272b2e;
+    max-width: 750px;
+    margin: auto;
+    padding-bottom: 15px;
+    background-color: #fff;
+    margin-top: 100px;
+}
+.btn-cria-conta{
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+.use-facebook{
+    background-color: #3B5998;
+    cursor: pointer;
+}
+.use-google{
+    background-color: #d9534f;
+    cursor: pointer;
+}
+.btn-use-conta > div > span{
+    display: inline-block;
+    float: left;
+    margin: 0;
+    /*background-color: #3B5998;*/
+    border: 0;
+    font-size: 20px;
+    width: 10px;
+    padding: 0;
+    height: 10px;
+}
+.btn-use-conta > div > .fa-facebook{
+    background-color: #3B5998;
+}
+.btn-use-conta > div > .fa-google{
+    background-color: #d9534f;
+}
+.btn-use-conta > div > .fa-facebook:hover{
+    background-color: #3B5998;
+    border: 0;
+    color: #fff;
+}
+.btn-use-conta > div > .fa-google:hover{
+    background-color: #d9534f;
+    border: 0;
+    color: #fff;
+}
+.btn-use-conta > div{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.use-email h6{
+    color: #00B253;
+    margin-top: 20px;
+}
